@@ -1,5 +1,5 @@
 body {
-	font-family: montserratregular;
+	font-family: 'Montserrat', sans-serif;
 	width: 1440px;
 	height: 2700px;
 }
@@ -111,10 +111,10 @@ body {
 }
 .third {
 	position: absolute;
-width: 1440px;
-height: 900px;
-left: 0px;
-top: 1800px;
+	width: 1440px;
+	height: 900px;
+	left: 0px;
+	top: 1800px;
 }
 .collection__text-title {
 	position: absolute;
@@ -126,7 +126,6 @@ top: 1800px;
 	font-weight: bold;
 	font-size: 80px;
 	line-height: 82px;
-
 	margin-block-start: 0em;
     margin-block-end: 0em;
 }
@@ -138,7 +137,7 @@ top: 1800px;
 	top: 453px;
 	font-size: 15px;
 	line-height: 21px;
-margin-block-start: 0em;
+	margin-block-start: 0em;
     margin-block-end: 0em;
 }
 .collection__scroll {
@@ -174,6 +173,8 @@ margin-block-start: 0em;
 .collection__next-text {
 	display: table-cell;
 	vertical-align: middle;
+	text-decoration: none;
+	color: black;
 }
 .collection__other {
 	display: table;
@@ -190,6 +191,8 @@ margin-block-start: 0em;
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+	text-decoration: none;
+	color: black;
 } 
 .collection__vector {
 	position: absolute;
